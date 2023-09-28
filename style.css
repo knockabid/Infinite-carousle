@@ -1,0 +1,22 @@
+
+.wrapper{
+    display: flex;    
+    overflow: hidden;
+}
+.slide{
+    display: flex;
+    animation: abid 5s linear infinite;
+}
+@keyframes abid{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+
+    }
+}
+.slide img{
+    padding: 0px 30px;
+    width: 70px;
+}
